@@ -1,0 +1,21 @@
+                                                            List of databases
+     Name      |  Owner   | Encoding | Locale Provider |   Collate   |    Ctype    | ICU Locale | ICU Rules |     Access privileges      
+---------------+----------+----------+-----------------+-------------+-------------+------------+-----------+----------------------------
+ Truckapp_db   | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |            |           | =Tc/postgres              +
+               |          |          |                 |             |             |            |           | postgres=CTc/postgres     +
+               |          |          |                 |             |             |            |           | truckapp_user=CTc/postgres
+ app           | app      | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |            |           | 
+ campus_plaza  | daniel   | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |            |           | =Tc/daniel                +
+               |          |          |                 |             |             |            |           | daniel=CTc/daniel
+ cargo_connect | daniel   | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |            |           | 
+ latisec_db    | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |            |           | 
+ postgres      | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |            |           | 
+ template0     | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |            |           | =c/postgres               +
+               |          |          |                 |             |             |            |           | postgres=CTc/postgres
+ template1     | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |            |           | =c/postgres               +
+               |          |          |                 |             |             |            |           | postgres=CTc/postgres
+ truckapp_db   | postgres | UTF8     | libc            | en_US.UTF-8 | en_US.UTF-8 |            |           | =Tc/postgres              +
+               |          |          |                 |             |             |            |           | postgres=CTc/postgres     +
+               |          |          |                 |             |             |            |           | truckapp_user=CTc/postgres
+(9 rows)
+
