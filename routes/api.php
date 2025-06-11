@@ -20,7 +20,5 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::post('/products/{product}/approve', [ProductController::class, 'approve']);
     Route::get('/orders', [OrderController::class, 'index']);
     Route::post('/orders', [OrderController::class, 'store']);
-    Route::post('/order', [OrderController::class, 'store']);
-
     Route::post('/orders/{order}/status', [OrderController::class, 'updateStatus']);
 });
